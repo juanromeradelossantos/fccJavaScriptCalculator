@@ -1,0 +1,47 @@
+#root {
+  height: 100vh;
+  background-color: #F2EBE9;
+}
+
+#buttons {
+  display: grid;
+  grid-template-columns: repeat(5, 70px);
+  grid-template-rows: repeat(4, 65px);
+}
+
+#equals {
+  grid-column: span 2;
+}
+
+#dis {
+  background-color: black;
+  color: white;
+  width: 350px;
+  height: 75px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#input, #display {
+  margin: 0;
+  height: 32.5px;
+}
+
+#input {
+  text-align: left;
+  font-size: 23px;
+}
+
+#display {
+  text-align: right;
+  font-size: 23px;
+}
+
+.btn:focus {
+  box-shadow: none;
+}
+
+.btn {
+  background-color: white;
+  font-size: 23px;
+}
